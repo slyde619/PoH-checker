@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz@0,9..40;1,9..40&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #e0e9f8;
+  background-color: #121212;
+  min-height: 100dvh;
+}
+
+.text-center{
+    text-align: center;
+}
+
+header {
+  width: 95%;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1.24rem;
+  margin: auto;
+}
+
+header h1 {
+  font-size: 1.25rem;
+}
+
+.heading p{
+    font-size: .85rem;
+    line-height: 1.16;
+    padding-block-start: 1rem;
+}
+
+form {
+  width: 100%;
+}
+
+.form-group {
+  width: 100%;
+}
+
+input {
+  border: none;
+  outline: none;
+  border-radius: 0.25rem;
+  width: 100%;
+  padding: 0.75rem 1.25rem 0.75rem 0.45rem;
+  background-color: #1d1d1d;
+  color: #e0e9f8;
+}
+
+button {
+  margin-block-start: 0.75rem;
+  outline: none;
+  border: none;
+  padding: 0.5rem 1.14rem;
+  border-radius: 0.28rem;
+  background-color: #e0e9f8;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+  padding: 1rem;
+}
+
+article{
+    text-align: center;
+    border-radius: .24rem;
+}
+
+article.success {
+  background-color: rgb(37, 175, 73);
+  border-left: 6px solid rgb(21, 128, 61);
+  color: white;
+}
+
+article.flagged {
+  background-color: rgb(236, 57, 87);
+  border-left: 6px solid rgb(180, 30, 55);
+  color: white;
+}
